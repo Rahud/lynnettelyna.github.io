@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyna Web Blog</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="lyna3.jpeg" type="image/x-icon">
+    <audio autoplay src="Crayon & Ayra Starr - Ngozi (Official Music Video).mp3"></audio>
+</head>
+<body>
+
+    <script>
+        //Password Server(Set-Password)...
+        var go = "Lyna";
+        var went = go[0] + go[3] + go[1] + go.length + go[0] + go[1] + go[2] + go[3] + "loveyou";
+        ask = prompt("Password required!");
+        
+        //If password is not equal to went change window location...
+        if(ask != went){
+            alert("Invalid Password. Admin Access denied! Try contacting Lyna or Kara for the 'Password!'  ");
+            window.location = "index.html";
+        }
+        else{
+            alert("Welcome Lyna Babe! Have Fun");
+        }
+
+        //Welcome feed(After Login)...
+        function demo(){
+        alert("Enjoy editing your website! From 'Kigenyi Abdul Rahman' ");
+        }
+
+        window.onload = setTimeout(demo, 5000);
+    </script>
+
+    <div class="links">
+        <div class="link">
+            <a href="index.html">Home</a>
+            <a href="photo.html">Photoes</a>
+            <a href="video.html">Videos</a>
+            <a href="aboutlyna.html">About Lyna</a>
+            <a href="admin.html">Admin</a>
+        </div>
+
+        <p>Lyna Web Blog</p>
+
+        <img src="lyna5.jpeg" alt="Lyna Image">
+        <a name="#top">
+    </div>
+
+    <div class="container">
+        <h2>LYNA BLOG XOXO</h2>
+        
+        <div class="edit">
+            <img src="lyna3.jpeg" alt="Lyna Image">
+            <p>Love you all</p>
+            <img src="lyna2.jpeg" alt="Lyna Image">
+            <p>This is me Lyna</p>
+            <img src="kara.png" alt="Kigenyi Image">
+            <p>Oh and this is my OB kigenyi, he is the developer of this web blog.</p>
+            <img class="shi" src="Shivo.jpeg" alt="Shivo Image">
+            <p>And my OG Shivo, she's one of my best friends.</p>
+            <img src="lyna.jpeg" alt="Lyna Image">
+        </div>
+
+        <div class="gotop"><a class="gotop" href="#top">To Top</a></div>
+        <div class="footer"> 
+            <div class="link2">
+                <a href="www.facebook.com">Facebook</a>
+                <a href="www.whatsapp.com">WhatsApp</a>
+                <a href="www.snapchat.com">Snapchat</a>
+                <a href="www.instagram.com">Instagram</a>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>

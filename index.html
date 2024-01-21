@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyna Web Blog</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="lyna3.jpeg" type="image/x-icon">
+    <audio autoplay src="Faded - Allan Walker.mp3"></audio>
+</head>
+<body> 
+    
+    <script>
+        function demo(){
+            alert("Welcome to Lyna Blog! A web blog by Lyna! Much Love to you guys!")
+        }
+        window.onload = setTimeout(demo, 10000);
+    </script>
+    
+    <div class="links">
+        <div class="link">
+            <a href="index.html">Home</a>
+            <a href="photo.html">Photoes</a>
+            <a href="video.html">Videos</a>
+            <a href="aboutlyna.html">About Lyna</a>
+            <a href="admin.html">Admin</a>
+        </div>
+
+        <p>Lyna Web Blog</p>
+
+        <img src="lyna5.jpeg" alt="Lyna Image">
+        <a name="#top">
+    </div>
+
+    <div class="container">
+        <h2>Lyna Blog</h2>
+        
+        <p class="para">Fashion is one the most trending in the world. I am a Fashion fan, fashion is good. <br> We need to show our love for fashion. "How?" someone may ask and I recommend my answer to be; "in any way you want, it can be clothing, hair, decoration or behaviour as long as it's corresponding to fashion." <br> Many people are still confused of fashion as they take it to be something for granted. In my world I take fashion to be part of my life and my cosmic friend. Fashion can be termed as a popular or the latest style of clothing, hair, decoration, or behaviour. It is most in the teenagers and other slay queens as it is said by many people. Fashion obviously is not something easy to maintain since all fashionistas need to be alert of the new fashions. I personally came up with this web blog to show you my fashion experience. So please enjoy the goodness of my web blog.</p>
+        
+        <img class="shot" src="lyna.jpeg" alt="Image">
+        
+        <hr>
+
+        <p class="para2">My life is kinda fun, I have nice friends and what could go wrong with my friends on my back advising me on every step I make. <br> <img id="kifana" class="shot2" src="" alt="Image"> <br>My friends are good at making me feel comfortable.  Most of my time is spent with my friends and less with my family, only because I spend a lot of time at school and less time at home.</p>
+
+
+        <script>
+            let photo = document.getElementById('kifana');
+            let photoes = ['lyna2.jpeg','lyna1.jpeg','lyna3.jpeg','lyna4.jpeg','lyna5.jpeg','lyna6.jpeg','lyna7.jpeg'];
+            setInterval(function(){
+                let random = Math.floor(Math.random() *6);
+                photo.src = photoes[random];
+            }, 900);
+        </script>
+
+        <div class="gotop"><a class="gotop" href="#top">To Top</a></div>
+        <div class="footer"> 
+            <div class="link2">
+                <a href="www.facebook.com">Facebook</a>
+                <a href="www.whatsapp.com">WhatsApp</a>
+                <a href="www.snapchat.com">Snapchat</a>
+                <a href="www.instagram.com">Instagram</a>
+                <a href="copyright.html">&copy</a>
+            </div>
+        </div>
+    </div>
+
+
+   
+</body>
+</html>
